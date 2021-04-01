@@ -10,13 +10,13 @@
     <parameter name="browser" value="Chrome"/>
     <parameter name="browser_version" value="latest"/>
     <classes>
-      <class name="testCases.Test_script_Test2">
+      <class name="testCases.Testcase1">
         <methods>
+          <include name="flipkart"/>
           <include name="tearDown"/>
-          <include name="validateElements"/>
           <include name="initializeBrowser"/>
         </methods>
-      </class> <!-- testCases.Test_script_Test2 -->
+      </class> <!-- testCases.Testcase1 -->
     </classes>
   </test> <!-- Test-chrome(failed) -->
   <test thread-count="5" name="Test-firefox(failed)">
@@ -25,13 +25,13 @@
     <parameter name="browser" value="Firefox"/>
     <parameter name="browser_version" value="latest"/>
     <classes>
-      <class name="testCases.Test_script_Test2">
+      <class name="testCases.Testcase1">
         <methods>
+          <include name="flipkart"/>
           <include name="tearDown"/>
-          <include name="validateElements"/>
           <include name="initializeBrowser"/>
         </methods>
-      </class> <!-- testCases.Test_script_Test2 -->
+      </class> <!-- testCases.Testcase1 -->
     </classes>
   </test> <!-- Test-firefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->

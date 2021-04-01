@@ -22,11 +22,11 @@ import java.io.IOException;
 import java.net.URL;
 
 public class BaseTest {
-
+	
 	public static WebDriver driver = null;
 	public Properties prop;
-	public static final String USERNAME = "kumarshubham6";
-	public static final String AUTOMATE_KEY = "RpCymy7LgDJBBsc3kuXh";
+	public static final String USERNAME = "kumarshubham7";
+	public static final String AUTOMATE_KEY = "woyUqVN2MKL9DBWnKk4W";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
 	@Parameters({ "os", "os_version", "browser", "browser_version" })
@@ -60,7 +60,7 @@ public class BaseTest {
 	@AfterMethod
 	public void tearDown() {
 
-		driver.close();
+		driver.quit();
 	}
 
 	public String getScreenshotPath(String testCaseName, WebDriver driver) throws IOException {
