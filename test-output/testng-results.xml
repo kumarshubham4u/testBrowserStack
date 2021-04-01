@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="98578" started-at="2021-04-01T05:40:47Z" finished-at="2021-04-01T05:42:26Z">
+  <suite name="Suite" duration-ms="127702" started-at="2021-04-01T05:49:58Z" finished-at="2021-04-01T05:52:05Z">
     <groups>
     </groups>
-    <test name="Test-chrome" duration-ms="51883" started-at="2021-04-01T05:40:47Z" finished-at="2021-04-01T05:41:39Z">
+    <test name="Test-chrome" duration-ms="60284" started-at="2021-04-01T05:49:58Z" finished-at="2021-04-01T05:50:58Z">
       <class name="testCases.Testcase1">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@2df3b89c]" name="initializeBrowser" is-config="true" duration-ms="22436" started-at="2021-04-01T05:40:47Z" finished-at="2021-04-01T05:41:09Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@4a8355dd]" name="initializeBrowser" is-config="true" duration-ms="32044" started-at="2021-04-01T05:49:58Z" finished-at="2021-04-01T05:50:30Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@2df3b89c]" name="Login" duration-ms="4414" started-at="2021-04-01T05:41:09Z" data-provider="credentials" finished-at="2021-04-01T05:41:14Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@4a8355dd]" name="Login" duration-ms="7656" started-at="2021-04-01T05:50:30Z" data-provider="credentials" finished-at="2021-04-01T05:50:37Z">
           <params>
             <param index="0">
               <value>
@@ -49,13 +49,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Testcase1@2df3b89c]" name="tearDown" is-config="true" duration-ms="436" started-at="2021-04-01T05:41:14Z" finished-at="2021-04-01T05:41:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Testcase1@4a8355dd]" name="tearDown" is-config="true" duration-ms="4903" started-at="2021-04-01T05:50:37Z" finished-at="2021-04-01T05:50:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.Testcase1 -->
       <class name="testCases.Test_script_Test2">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Test_script_Test2@23348b5d]" name="initializeBrowser" is-config="true" duration-ms="13968" started-at="2021-04-01T05:41:14Z" finished-at="2021-04-01T05:41:28Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Test_script_Test2@4d0d9fe7]" name="initializeBrowser" is-config="true" duration-ms="10157" started-at="2021-04-01T05:50:42Z" finished-at="2021-04-01T05:50:52Z">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="FAIL" signature="validateElements()[pri:0, instance:testCases.Test_script_Test2@23348b5d]" name="validateElements" duration-ms="3812" started-at="2021-04-01T05:41:28Z" finished-at="2021-04-01T05:41:32Z">
+        <test-method status="FAIL" signature="validateElements()[pri:0, instance:testCases.Test_script_Test2@4d0d9fe7]" name="validateElements" duration-ms="2729" started-at="2021-04-01T05:50:52Z" finished-at="2021-04-01T05:50:55Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [info@qaclickacademy.coms] but found [info@qaclickacademy.com]]]>
@@ -126,15 +126,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateElements -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Test_script_Test2@23348b5d]" name="tearDown" is-config="true" duration-ms="6763" started-at="2021-04-01T05:41:32Z" finished-at="2021-04-01T05:41:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Test_script_Test2@4d0d9fe7]" name="tearDown" is-config="true" duration-ms="848" started-at="2021-04-01T05:50:57Z" finished-at="2021-04-01T05:50:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.Test_script_Test2 -->
     </test> <!-- Test-chrome -->
-    <test name="Test-firefox" duration-ms="46630" started-at="2021-04-01T05:41:39Z" finished-at="2021-04-01T05:42:26Z">
+    <test name="Test-firefox" duration-ms="66854" started-at="2021-04-01T05:50:58Z" finished-at="2021-04-01T05:52:05Z">
       <class name="testCases.Testcase1">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@65d09a04]" name="initializeBrowser" is-config="true" duration-ms="20833" started-at="2021-04-01T05:41:39Z" finished-at="2021-04-01T05:42:00Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@5745ca0e]" name="initializeBrowser" is-config="true" duration-ms="23024" started-at="2021-04-01T05:50:58Z" finished-at="2021-04-01T05:51:21Z">
           <params>
             <param index="0">
               <value>
@@ -160,7 +160,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@65d09a04]" name="Login" duration-ms="8876" started-at="2021-04-01T05:42:00Z" data-provider="credentials" finished-at="2021-04-01T05:42:09Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@5745ca0e]" name="Login" duration-ms="5584" started-at="2021-04-01T05:51:21Z" data-provider="credentials" finished-at="2021-04-01T05:51:27Z">
           <params>
             <param index="0">
               <value>
@@ -176,13 +176,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Testcase1@65d09a04]" name="tearDown" is-config="true" duration-ms="1917" started-at="2021-04-01T05:42:09Z" finished-at="2021-04-01T05:42:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Testcase1@5745ca0e]" name="tearDown" is-config="true" duration-ms="1567" started-at="2021-04-01T05:51:27Z" finished-at="2021-04-01T05:51:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.Testcase1 -->
       <class name="testCases.Test_script_Test2">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Test_script_Test2@33c911a1]" name="initializeBrowser" is-config="true" duration-ms="10766" started-at="2021-04-01T05:42:11Z" finished-at="2021-04-01T05:42:21Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Test_script_Test2@3ad83a66]" name="initializeBrowser" is-config="true" duration-ms="28235" started-at="2021-04-01T05:51:29Z" finished-at="2021-04-01T05:51:57Z">
           <params>
             <param index="0">
               <value>
@@ -208,7 +208,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="FAIL" signature="validateElements()[pri:0, instance:testCases.Test_script_Test2@33c911a1]" name="validateElements" duration-ms="3012" started-at="2021-04-01T05:42:21Z" finished-at="2021-04-01T05:42:24Z">
+        <test-method status="FAIL" signature="validateElements()[pri:0, instance:testCases.Test_script_Test2@3ad83a66]" name="validateElements" duration-ms="2937" started-at="2021-04-01T05:51:57Z" finished-at="2021-04-01T05:52:00Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [info@qaclickacademy.coms] but found [info@qaclickacademy.com]]]>
@@ -253,7 +253,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateElements -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Test_script_Test2@33c911a1]" name="tearDown" is-config="true" duration-ms="1214" started-at="2021-04-01T05:42:24Z" finished-at="2021-04-01T05:42:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Test_script_Test2@3ad83a66]" name="tearDown" is-config="true" duration-ms="2528" started-at="2021-04-01T05:52:03Z" finished-at="2021-04-01T05:52:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

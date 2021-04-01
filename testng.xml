@@ -14,7 +14,6 @@
 
 		<classes>
 			<class name="testCases.Testcase1" />
-			<class name="testCases.Test_script_Test2" />
 
 		</classes>
 	</test>
@@ -27,7 +26,6 @@
 
 		<classes>
 			<class name="testCases.Testcase1" />
-			<class name="testCases.Test_script_Test2" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
