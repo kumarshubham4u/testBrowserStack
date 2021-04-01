@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59134" started-at="2021-04-01T05:30:45Z" finished-at="2021-04-01T05:31:44Z">
+    <groups>
+    </groups>
+    <test name="Test-chrome" duration-ms="40281" started-at="2021-04-01T05:30:45Z" finished-at="2021-04-01T05:31:25Z">
+      <class name="testCases.Testcase1">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@55b0dcab]" name="initializeBrowser" is-config="true" duration-ms="31749" started-at="2021-04-01T05:30:45Z" finished-at="2021-04-01T05:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@55b0dcab]" name="Login" duration-ms="6096" started-at="2021-04-01T05:31:17Z" data-provider="credentials" finished-at="2021-04-01T05:31:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumarshubham2994@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shubham@4u]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Testcase1@55b0dcab]" name="tearDown" is-config="true" duration-ms="2400" started-at="2021-04-01T05:31:23Z" finished-at="2021-04-01T05:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Testcase1 -->
+    </test> <!-- Test-chrome -->
+    <test name="Test-firefox" duration-ms="18824" started-at="2021-04-01T05:31:25Z" finished-at="2021-04-01T05:31:44Z">
+      <class name="testCases.Testcase1">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@394df057]" name="initializeBrowser" is-config="true" duration-ms="12656" started-at="2021-04-01T05:31:25Z" finished-at="2021-04-01T05:31:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@394df057]" name="Login" duration-ms="4810" started-at="2021-04-01T05:31:38Z" data-provider="credentials" finished-at="2021-04-01T05:31:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumarshubham2994@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shubham@4u]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Testcase1@394df057]" name="tearDown" is-config="true" duration-ms="1352" started-at="2021-04-01T05:31:43Z" finished-at="2021-04-01T05:31:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Testcase1 -->
+    </test> <!-- Test-firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
