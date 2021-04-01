@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.Test_script_Test2" hash-for-method="validateElements">validateElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.Test_script_Test2" hash-for-method="validateElements">validateElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,6 +141,36 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.Test_script_Test2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateElements">
+                  </a> <!-- validateElements -->
+                  <span class="method-name">validateElements</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [info@qaclickacademy.coms] but found [info@qaclickacademy.com]
+	at testCases.Test_script_Test2.validateElements(Test_script_Test2.java:29)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateElements">
+                  </a> <!-- validateElements -->
+                  <span class="method-name">validateElements</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [info@qaclickacademy.coms] but found [info@qaclickacademy.com]
+	at testCases.Test_script_Test2.validateElements(Test_script_Test2.java:29)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -163,6 +212,7 @@
     &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.Testcase1&quot;/&gt;
+      &lt;class name=&quot;testCases.Test_script_Test2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test-chrome --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test-firefox&quot;&gt;
@@ -172,6 +222,7 @@
     &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.Testcase1&quot;/&gt;
+      &lt;class name=&quot;testCases.Test_script_Test2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test-firefox --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -185,10 +236,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test-chrome (1 class)</span>
+                <span class="test-name">Test-chrome (2 classes)</span>
               </li>
               <li>
-                <span class="test-name">Test-firefox (1 class)</span>
+                <span class="test-name">Test-firefox (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,20 +265,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Login')
 data.setCell(0, 2, 'testCases.Testcase1')
-data.setCell(0, 3, 6096);
+data.setCell(0, 3, 8876);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Login')
 data.setCell(1, 2, 'testCases.Testcase1')
-data.setCell(1, 3, 4810);
+data.setCell(1, 3, 4414);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateElements')
+data.setCell(2, 2, 'testCases.Test_script_Test2')
+data.setCell(2, 3, 3812);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateElements')
+data.setCell(3, 2, 'testCases.Test_script_Test2')
+data.setCell(3, 3, 3012);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -260,23 +319,60 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login(kumarshubham2994@gmail.com, Shubham@4u)</span>
-                <span class="method-start">31749 ms</span>
+                <span class="method-start">22436 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37847 ms</span>
+                <span class="method-start">26853 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test_script_Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Windows, 10, Chrome, latest)</span>
+                <span class="method-start">27291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateElements</span>
+                <span class="method-start">41259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45082 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Testcase1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">initializeBrowser(Windows, 10, Firefox, latest)</span>
-                <span class="method-start">40280 ms</span>
+                <span class="method-start">51917 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login(kumarshubham2994@gmail.com, Shubham@4u)</span>
-                <span class="method-start">52937 ms</span>
+                <span class="method-start">72750 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">57749 ms</span>
+                <span class="method-start">81628 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Test_script_Test2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Windows, 10, Firefox, latest)</span>
+                <span class="method-start">83546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateElements</span>
+                <span class="method-start">94313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97326 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

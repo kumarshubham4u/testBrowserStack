@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+
+	<listeners>
+		<listener class-name="testCases.Listeners" />
+	</listeners>
 	<test name="Test-chrome">
 
 		<parameter name="os" value="Windows" />
@@ -10,6 +14,8 @@
 
 		<classes>
 			<class name="testCases.Testcase1" />
+			<class name="testCases.Test_script_Test2" />
+
 		</classes>
 	</test>
 	<test name="Test-firefox">
@@ -21,6 +27,7 @@
 
 		<classes>
 			<class name="testCases.Testcase1" />
+			<class name="testCases.Test_script_Test2" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
