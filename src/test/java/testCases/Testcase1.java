@@ -47,7 +47,8 @@ public class Testcase1 extends BaseTest {
 		List<String> webList = new ArrayList<String>();
 		for (int i = 0; i < objF.getItems().size(); i++) {
 
-			webList.add(objF.getItems().get(i).getText() + objF.getItemPrice().get(i).getText() + objF.getItemLink().get(i).getAttribute("href") +"\n" );
+			webList.add(objF.getItems().get(i).getText() + " , " + objF.getItemPrice().get(i).getText() + " , "
+					+ objF.getItemLink().get(i).getAttribute("href") + "\n");
 		}
 		System.out.println(webList);
 		log.info(webList);
