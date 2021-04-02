@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="150848" started-at="2021-04-01T15:05:24Z" finished-at="2021-04-01T15:07:55Z">
+  <suite name="Suite" duration-ms="119945" started-at="2021-04-01T15:18:07Z" finished-at="2021-04-01T15:20:07Z">
     <groups>
     </groups>
-    <test name="Test-chrome" duration-ms="84498" started-at="2021-04-01T15:05:24Z" finished-at="2021-04-01T15:06:49Z">
+    <test name="Test-chrome" duration-ms="62391" started-at="2021-04-01T15:18:07Z" finished-at="2021-04-01T15:19:09Z">
       <class name="testCases.Testcase1">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@28dcca0c]" name="initializeBrowser" is-config="true" duration-ms="20685" started-at="2021-04-01T15:05:24Z" finished-at="2021-04-01T15:05:45Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@28dcca0c]" name="initializeBrowser" is-config="true" duration-ms="13369" started-at="2021-04-01T15:18:07Z" finished-at="2021-04-01T15:18:20Z">
           <params>
             <param index="0">
               <value>
@@ -33,19 +33,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="flipkart()[pri:0, instance:testCases.Testcase1@28dcca0c]" name="flipkart" duration-ms="61979" started-at="2021-04-01T15:05:45Z" finished-at="2021-04-01T15:06:47Z">
+        <test-method status="PASS" signature="flipkart()[pri:0, instance:testCases.Testcase1@28dcca0c]" name="flipkart" duration-ms="47293" started-at="2021-04-01T15:18:20Z" finished-at="2021-04-01T15:19:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flipkart -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Testcase1@28dcca0c]" name="tearDown" is-config="true" duration-ms="1793" started-at="2021-04-01T15:06:47Z" finished-at="2021-04-01T15:06:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Testcase1@28dcca0c]" name="tearDown" is-config="true" duration-ms="1674" started-at="2021-04-01T15:19:07Z" finished-at="2021-04-01T15:19:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.Testcase1 -->
     </test> <!-- Test-chrome -->
-    <test name="Test-firefox" duration-ms="64907" started-at="2021-04-01T15:06:50Z" finished-at="2021-04-01T15:07:55Z">
+    <test name="Test-firefox" duration-ms="56397" started-at="2021-04-01T15:19:10Z" finished-at="2021-04-01T15:20:07Z">
       <class name="testCases.Testcase1">
-        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@239a307b]" name="initializeBrowser" is-config="true" duration-ms="13995" started-at="2021-04-01T15:06:50Z" finished-at="2021-04-01T15:07:04Z">
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Testcase1@239a307b]" name="initializeBrowser" is-config="true" duration-ms="12970" started-at="2021-04-01T15:19:10Z" finished-at="2021-04-01T15:19:23Z">
           <params>
             <param index="0">
               <value>
@@ -71,11 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method status="PASS" signature="flipkart()[pri:0, instance:testCases.Testcase1@239a307b]" name="flipkart" duration-ms="48947" started-at="2021-04-01T15:07:04Z" finished-at="2021-04-01T15:07:53Z">
+        <test-method status="PASS" signature="flipkart()[pri:0, instance:testCases.Testcase1@239a307b]" name="flipkart" duration-ms="41494" started-at="2021-04-01T15:19:23Z" finished-at="2021-04-01T15:20:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flipkart -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Testcase1@239a307b]" name="tearDown" is-config="true" duration-ms="1938" started-at="2021-04-01T15:07:53Z" finished-at="2021-04-01T15:07:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Testcase1@239a307b]" name="tearDown" is-config="true" duration-ms="1921" started-at="2021-04-01T15:20:05Z" finished-at="2021-04-01T15:20:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
