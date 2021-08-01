@@ -25,8 +25,8 @@ public class BaseTest {
 	
 	public static WebDriver driver = null;
 	public Properties prop;
-	public static final String USERNAME = "kumarshubham7";
-	public static final String AUTOMATE_KEY = "woyUqVN2MKL9DBWnKk4W";
+	public static final String USERNAME = "kumarshubham_1xPNYi";
+	public static final String AUTOMATE_KEY = "pkzigPVE3wpC2pHhe3Dx";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
 	@Parameters({ "os", "os_version", "browser", "browser_version" })
