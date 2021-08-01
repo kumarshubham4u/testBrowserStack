@@ -36,7 +36,7 @@ public class BaseTest {
 
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties");
+				System.getProperty("user.dir") + "/src/main/java/resources/data.properties");
 		prop.load(fis);
 
 		DesiredCapabilities caps = new DesiredCapabilities();
@@ -67,7 +67,7 @@ public class BaseTest {
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		String destinationFile = System.getProperty("user.dir") + "\\reports\\" + testCaseName + ".png";
+		String destinationFile = System.getProperty("user.dir") + "/reports/" + testCaseName + ".png";
 		FileUtils.copyFile(source, new File(destinationFile));
 		return destinationFile;
 
