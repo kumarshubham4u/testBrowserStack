@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\eclipse\test\testng.xml</span>
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.Testcase1" hash-for-method="flipkart">flipkart</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.Testcase1" hash-for-method="amazon">amazon</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.Testcase1" hash-for-method="flipkart">flipkart</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testCases.Testcase1" hash-for-method="amazon">amazon</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -130,16 +130,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="flipkart">
-                  </a> <!-- flipkart -->
-                  <span class="method-name">flipkart</span>
+                  <a name="amazon">
+                  </a> <!-- amazon -->
+                  <span class="method-name">amazon</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="flipkart">
-                  </a> <!-- flipkart -->
-                  <span class="method-name">flipkart</span>
+                  <a name="amazon">
+                  </a> <!-- amazon -->
+                  <span class="method-name">amazon</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,34 +147,43 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\eclipse\test\testng.xml</span>
+            <span class="header-content">/Users/kumarshubham/eclipse-workspace/amazon/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;testCases.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test-chrome&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Test-chrome&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;os_version&quot; value=&quot;10&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
-    &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;91.0&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.Testcase1&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test-chrome --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test-firefox&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Test-firefox&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;os_version&quot; value=&quot;10&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
-    &lt;parameter name=&quot;browser_version&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;89.0&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.Testcase1&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test-firefox --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Test-safari&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+    &lt;parameter name=&quot;os_version&quot; value=&quot;Big Sur&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Safari&quot;/&gt;
+    &lt;parameter name=&quot;browser_version&quot; value=&quot;14.1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Testcase1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test-safari --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,6 +199,9 @@
               </li>
               <li>
                 <span class="test-name">Test-firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test-safari (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -217,18 +229,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'flipkart')
+data.setCell(0, 1, 'amazon')
 data.setCell(0, 2, 'testCases.Testcase1')
-data.setCell(0, 3, 47293);
+data.setCell(0, 3, 110530);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'flipkart')
+data.setCell(1, 1, 'amazon')
 data.setCell(1, 2, 'testCases.Testcase1')
-data.setCell(1, 3, 41494);
+data.setCell(1, 3, 65976);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -256,28 +268,38 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Testcase1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">initializeBrowser(Windows, 10, Chrome, latest)</span>
+                <span class="method-name">initializeBrowser(Windows, 10, Chrome, 91.0)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(OS X, Big Sur, Safari, 14.1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeBrowser(Windows, 10, Firefox, 89.0)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">flipkart</span>
-                <span class="method-start">13371 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">amazon</span>
+                <span class="method-start">20287 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">60688 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">initializeBrowser(Windows, 10, Firefox, latest)</span>
-                <span class="method-start">63527 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">flipkart</span>
-                <span class="method-start">76497 ms</span>
+                <span class="method-name">amazon</span>
+                <span class="method-start">25910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">amazon</span>
+                <span class="method-start">39728 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">117996 ms</span>
+                <span class="method-start">105727 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">136458 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

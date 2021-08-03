@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="tests" thread-count="3">
 
 	<listeners>
 		<listener class-name="testCases.Listeners" />
@@ -10,22 +10,37 @@
 		<parameter name="os" value="Windows" />
 		<parameter name="os_version" value="10" />
 		<parameter name="browser" value="Chrome" />
-		<parameter name="browser_version" value="latest" />
+		<parameter name="browser_version" value="91.0" />
 
 		<classes>
 			<class name="testCases.Testcase1" />
 
 		</classes>
 	</test>
+
 	<test name="Test-firefox">
 
 		<parameter name="os" value="Windows" />
 		<parameter name="os_version" value="10" />
 		<parameter name="browser" value="Firefox" />
-		<parameter name="browser_version" value="latest" />
+		<parameter name="browser_version" value="89.0" />
 
 		<classes>
 			<class name="testCases.Testcase1" />
 		</classes>
-	</test> <!-- Test -->
+	</test>
+
+
+	<test name="Test-safari">
+
+		<parameter name="os" value="OS X" />
+		<parameter name="os_version" value="Big Sur" />
+		<parameter name="browser" value="Safari" />
+		<parameter name="browser_version" value="14.1" />
+
+		<classes>
+			<class name="testCases.Testcase1" />
+		</classes>
+	</test>
+	<!-- Test -->
 </suite> <!-- Suite -->

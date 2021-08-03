@@ -7,37 +7,29 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class FilterPage {
-	
+
 	public WebDriver driver;
-	
+
 	public FilterPage(WebDriver driver) {
-		
-		this.driver=driver;
+
+		this.driver = driver;
 	}
 
-	private By mobileFilter = By.linkText("Mobiles");
-	private By samsungFilter = By.xpath("//div[@class='_3879cV'] [text()='SAMSUNG']");
-	private By assuredFilter = By.xpath("//img[@class='_3U-Vxu']");
-	private By highToLowFilter = By.xpath("//div[@class='_10UF8M'][text()='Price -- High to Low']");
-	private By items = By.xpath("//div[@class='_4rR01T']");
-	private By itemPrice = By.xpath("//div[@class='_30jeq3 _1_WHN1']");
-	private By itemLink = By.xpath("//a[@class='_1fQZEK']");
-	
-	
-	
-	public WebElement getMobileFilter() {
+	private By osFilter = By.xpath("//span[text()='iOS']");
+	private By sortDropdown = By.xpath("//span[text()='Sort by:']");
+	private By highToLowFilter = By.xpath("//a[text()='Price: High to Low']");
+	private By items = By.xpath("//span[@class='a-size-medium a-color-base a-text-normal']");
+	private By itemPrice = By.xpath("//a[@class='a-size-base a-link-normal a-text-normal']");
+	private By itemLink = By.xpath("//a[@class='a-link-normal a-text-normal']");
 
-		return driver.findElement(mobileFilter);
+	public WebElement getIOSFilter() {
+
+		return driver.findElement(osFilter);
 	}
 
-	public WebElement getSamsungFilter() {
+	public WebElement getSortDropdown() {
 
-		return driver.findElement(samsungFilter);
-	}
-
-	public WebElement getAssuredFilter() {
-
-		return driver.findElement(assuredFilter);
+		return driver.findElement(sortDropdown);
 	}
 
 	public WebElement getHighToLowFilter() {
@@ -54,7 +46,7 @@ public class FilterPage {
 
 		return driver.findElements(itemPrice);
 	}
-	
+
 	public List<WebElement> getItemLink() {
 
 		return driver.findElements(itemLink);

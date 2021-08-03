@@ -1,0 +1,55 @@
+19:37:39.940 [TestNG-tests-1] INFO  resources.BaseTest - Search for item: iphone X
+19:37:46.536 [TestNG-tests-2] INFO  resources.BaseTest - Search for item: iphone X
+19:37:46.626 [TestNG-tests-1] INFO  resources.BaseTest - Selecting IOS Filter
+19:37:50.620 [TestNG-tests-3] INFO  resources.BaseTest - Search for item: iphone X
+19:37:52.159 [TestNG-tests-1] INFO  resources.BaseTest - Clicking on Sort DropDown
+19:37:54.575 [TestNG-tests-2] INFO  resources.BaseTest - Selecting IOS Filter
+19:37:55.029 [TestNG-tests-3] INFO  resources.BaseTest - Selecting IOS Filter
+19:37:56.904 [TestNG-tests-1] INFO  resources.BaseTest - Selecting High to Low Price Filter
+19:37:57.961 [TestNG-tests-3] INFO  resources.BaseTest - Clicking on Sort DropDown
+19:37:58.998 [TestNG-tests-2] INFO  resources.BaseTest - Clicking on Sort DropDown
+19:38:01.802 [TestNG-tests-1] INFO  resources.BaseTest - Getting the item details
+19:38:03.247 [TestNG-tests-3] INFO  resources.BaseTest - Selecting High to Low Price Filter
+19:38:03.833 [TestNG-tests-2] INFO  resources.BaseTest - Selecting High to Low Price Filter
+19:38:06.522 [TestNG-tests-3] INFO  resources.BaseTest - Getting the item details
+19:38:07.535 [TestNG-tests-2] INFO  resources.BaseTest - Getting the item details
+19:43:07.995 [TestNG-tests-2] INFO  resources.BaseTest - Search for item: iphone X
+19:43:11.763 [TestNG-tests-2] INFO  resources.BaseTest - Selecting IOS Filter
+19:43:13.591 [TestNG-tests-3] INFO  resources.BaseTest - Search for item: iphone X
+19:43:17.625 [TestNG-tests-3] INFO  resources.BaseTest - Selecting IOS Filter
+19:43:19.652 [TestNG-tests-2] INFO  resources.BaseTest - Clicking on Sort DropDown
+19:43:20.437 [TestNG-tests-3] INFO  resources.BaseTest - Clicking on Sort DropDown
+19:43:24.280 [TestNG-tests-2] INFO  resources.BaseTest - Selecting High to Low Price Filter
+19:43:25.708 [TestNG-tests-3] INFO  resources.BaseTest - Selecting High to Low Price Filter
+19:43:27.401 [TestNG-tests-1] INFO  resources.BaseTest - Search for item: iphone X
+19:43:29.077 [TestNG-tests-3] INFO  resources.BaseTest - Getting the item details
+19:43:29.501 [TestNG-tests-2] INFO  resources.BaseTest - Getting the item details
+19:43:52.878 [TestNG-tests-1] INFO  resources.BaseTest - Selecting IOS Filter
+19:43:58.872 [TestNG-tests-1] INFO  resources.BaseTest - Clicking on Sort DropDown
+19:44:03.638 [TestNG-tests-1] INFO  resources.BaseTest - Selecting High to Low Price Filter
+19:44:08.866 [TestNG-tests-1] INFO  resources.BaseTest - Getting the item details
+19:44:33.358 [TestNG-tests-1] INFO  resources.BaseTest - [New Apple iPhone 12 Pro Max (512GB) - Graphite , 1,55,900 , https://www.amazon.in/New-Apple-iPhone-Pro-512GB/dp/B08L5WVZJ7/ref=sr_1_1?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-1
+, New Apple iPhone 12 Pro Max (256GB) - Gold , 1,35,900 , https://www.amazon.in/New-Apple-iPhone-Pro-256GB/dp/B08L5W2S3Q/ref=sr_1_2?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-2
+, New Apple iPhone 12 Pro Max (256GB) - Pacific Blue , 1,32,905 , https://www.amazon.in/New-Apple-iPhone-Pro-256GB/dp/B08L5T31M6/ref=sr_1_3?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-3
+, New Apple iPhone 12 Pro (256GB) - Gold , 1,25,900 , https://www.amazon.in/New-Apple-iPhone-Pro-256GB/dp/B08L5VPTDK/ref=sr_1_4?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-4
+, New Apple iPhone 12 Pro Max (128GB) - Gold , 1,25,900 , https://www.amazon.in/New-Apple-iPhone-Pro-128GB/dp/B08L5TQBBJ/ref=sr_1_5?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-5
+, New Apple iPhone 12 Pro Max (128GB) - Pacific Blue , 1,23,405 , https://www.amazon.in/New-Apple-iPhone-Pro-128GB/dp/B08L5VZKWT/ref=sr_1_6?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-6
+, New Apple iPhone 12 Pro (256GB) - Graphite , 1,23,405 , https://www.amazon.in/New-Apple-iPhone-Pro-256GB/dp/B08L5T44CQ/ref=sr_1_7?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-7
+, New Apple iPhone 12 Pro (256GB) - Pacific Blue , 1,23,405 , https://www.amazon.in/New-Apple-iPhone-Pro-256GB/dp/B08L5T2XSF/ref=sr_1_8?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-8
+, Apple iPhone 11 Pro (512GB) - Silver , 94,900 , https://www.amazon.in/Apple-iPhone-11-Pro-512GB/dp/B07XVKBY63/ref=sr_1_9?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-9
+, Apple iPhone 11 Pro (512GB) - Gold , 94,900 , https://www.amazon.in/Apple-iPhone-11-Pro-512GB/dp/B07XLS5FX8/ref=sr_1_10?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-10
+, Apple iPhone 11 Pro (64GB) - Silver , 89,899 , https://www.amazon.in/Apple-iPhone-11-Pro-64GB/dp/B07XLS56G6/ref=sr_1_11?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-11
+, New Apple iPhone 12 (128GB) - (Product) RED , 79,899 , https://www.amazon.in/New-Apple-iPhone-12-128GB/dp/B08L5WJD1C/ref=sr_1_12?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-12
+, Apple iPhone 11 Pro (64GB) - Space Grey , 79,899 , https://www.amazon.in/Apple-iPhone-11-Pro-64GB/dp/B07XLS522R/ref=sr_1_13?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-13
+, New Apple iPhone 12 (128GB) - Blue , 78,999 , https://www.amazon.in/New-Apple-iPhone-12-128GB/dp/B08L5TNJHG/ref=sr_1_14?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-14
+, New Apple iPhone 12 (128GB) - White , 78,999 , https://www.amazon.in/New-Apple-iPhone-12-128GB/dp/B08L5S1NT7/ref=sr_1_15?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-15
+, New Apple iPhone 12 (128GB) - Black , 78,999 , https://www.amazon.in/New-Apple-iPhone-12-128GB/dp/B08L5WD9D6/ref=sr_1_16?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-16
+, New Apple iPhone 12 (128GB) - Purple , 78,999 , https://www.amazon.in/New-Apple-iPhone-12-128GB/dp/B0932MD32V/ref=sr_1_17?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-17
+, New Apple iPhone 12 (64GB) - Blue , 72,900 , https://www.amazon.in/New-Apple-iPhone-12-64GB/dp/B08L5WHFT9/ref=sr_1_18?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-18
+, New Apple iPhone 12 (64GB) - (Product) RED , 72,900 , https://www.amazon.in/New-Apple-iPhone-12-64GB/dp/B08L5TGWD1/ref=sr_1_19?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-19
+, New Apple iPhone 12 (64GB) - Green , 71,900 , https://www.amazon.in/New-Apple-iPhone-12-64GB/dp/B08L5W16HX/ref=sr_1_20?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-20
+, New Apple iPhone 12 (64GB) - Black , 71,900 , https://www.amazon.in/New-Apple-iPhone-12-64GB/dp/B08L5T3S7T/ref=sr_1_21?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-21
+, New Apple iPhone 12 (64GB) - White , 70,900 , https://www.amazon.in/New-Apple-iPhone-12-64GB/dp/B08L5VJYV7/ref=sr_1_22?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-22
+, New Apple iPhone 11 (256GB) - Black , 69,900 , https://www.amazon.in/New-Apple-iPhone-11-256GB/dp/B08L8C7DV1/ref=sr_1_23?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-23
+, Apple iPhone 11 (256GB) - (Product) RED (Includes EarPods, Power Adapter) , 69,900 , https://www.amazon.in/Apple-iPhone-11-256GB-Product/dp/B07XVKZQJJ/ref=sr_1_24?dchild=1&keywords=iphone+X&qid=1627913644&refinements=p_n_operating_system_browse-bin%3A1485080031&rnid=1485076031&s=electronics&sr=1-24
+]

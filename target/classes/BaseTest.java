@@ -22,11 +22,11 @@ import java.io.IOException;
 import java.net.URL;
 
 public class BaseTest {
-	
-	public static WebDriver driver = null;
+
+	public WebDriver driver;
 	public Properties prop;
-	public static final String USERNAME = "kumarshubham_1xPNYi";
-	public static final String AUTOMATE_KEY = "pkzigPVE3wpC2pHhe3Dx";
+	public static final String USERNAME = "kumarshubham_XIv1zY";
+	public static final String AUTOMATE_KEY = "R3Zx7GyfJLWikt9Li2hj";
 	public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
 	@Parameters({ "os", "os_version", "browser", "browser_version" })
@@ -45,6 +45,9 @@ public class BaseTest {
 		caps.setCapability("browser", browser);
 		caps.setCapability("browser_version", browser_version);
 		caps.setCapability("browserstack.debug", "true");
+		caps.setCapability("browserstack.idleTimeout", "300");
+		caps.setCapability("browserstack.geoLocation", "US");
+		
 		caps.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
 		caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 
@@ -53,7 +56,6 @@ public class BaseTest {
 		driver = new RemoteWebDriver(browserStackUrl, caps);
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
 		driver.get(prop.getProperty("url"));
 	}
 
